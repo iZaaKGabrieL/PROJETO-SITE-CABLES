@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #ffffff;
+}
+
+.cabeca{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+img{
+    justify-content: end;
+    align-items: end;
+    height: 15%;
+    width: 15%;
+    transform: translate(6%,6%);
+    padding: auto;
+}
+
+.cabos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row-reverse;
+    
+    
+   
+
+}
+
+ h2, h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    bottom: 50px;
+}
+
+
+
+div#cabo1{
+    background-color: rgb(255, 255, 255);
+    padding: 90px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+    
+
+}
+
+
+
+div#cabo2{
+    background-color: rgb(255, 255, 255);
+    padding: 90px;
+    border: 2px solid black;
+    bottom: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    
+}
+
+div#cabo2:hover{
+    padding: 100px;
+    
+}
+
+div#cabo3{
+    background-color: rgb(255, 255, 255);
+    padding: 90px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+div#usb{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+summary {
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    list-style-type: "→";
+} 
+
+
+
+details[open] summary{
+    list-style-type: "↓";
+}
+
+span > a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 900px;
+    
+}
+
+mark{
+    background-color: black;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 4px;
+    left: 5px;
+}
+
+
+
