@@ -1,3 +1,41 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+body, html{
+    box-sizing: border-box;
+
+}
+
+
+header{
+    background-color: black;
+    padding: 5px;
+}
+
+header > h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+div#produtos{
+    display: flex;
+    position: absolute;
+    border: 2px solid black;
+    width: 1200px;
+    top: 10%;
+    left: 17%;
+    height: 1200px;
+}
+
+.item{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+}
