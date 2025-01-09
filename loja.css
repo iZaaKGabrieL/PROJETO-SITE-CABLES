@@ -12,12 +12,12 @@ body, html{
 
 
 header{
-    background-color: black;
-    padding: 5px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 header > h1{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 
@@ -26,16 +26,33 @@ header > h1{
 div#produtos{
     display: flex;
     position: absolute;
-    border: 2px solid black;
     width: 1200px;
     top: 10%;
+    
     left: 17%;
     height: 1200px;
 }
 
 .item{
-    background-color: black;
+    border: 1px solid black;
     width: 300px;
     height: 300px;
     margin: 3px;
+    border-radius: 5px;
+}
+
+.item:hover{
+    border: 3px solid black;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.212);
+    height: 300px;
+    margin: 3px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    
+
 }
