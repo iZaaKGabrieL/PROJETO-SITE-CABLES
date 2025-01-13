@@ -25,10 +25,10 @@ header > h1{
 
 div#produtos{
     display: flex;
-    position: absolute;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
     width: 1250px;
-    top: 10%;
-    left: 17%;
+    justify-content: center;
     height: 1200px;
 }
 
@@ -88,4 +88,15 @@ a:hover{
     margin: 2px;
     background-color: black;
     box-shadow: 4px 4px 4px solid black;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    border: none;
+    
 }
