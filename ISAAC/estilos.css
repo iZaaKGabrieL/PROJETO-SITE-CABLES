@@ -125,3 +125,12 @@ input:hover{
     
 }
 
+.rodape{
+    background-color: black;
+    width: 100%;
+    top: 950px;
+    position: absolute;
+    padding: 50px;
+    
+
+}

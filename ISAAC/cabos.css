@@ -5,11 +5,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
-body{
+body, html{
 background-color: #ffffff;
+box-sizing: border-box;
 }
 
 .cabeca{
@@ -22,14 +23,7 @@ background-color: #ffffff;
     
 }
 
-img{
-    justify-content: end;
-    align-items: end;
-    height: 15%;
-    width: 15%;
-    transform: translate(6%,6%);
-    padding: auto;
-}
+
 
 .cabos{
     display: flex;
@@ -134,4 +128,10 @@ mark{
 }
 
 
-
+.rodape{
+    width: 100%;
+    position: absolute;
+    top: 4800px;
+    background-color: black;
+    padding: 50px;
+}
