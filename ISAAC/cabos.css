@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
-
-
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 body, html{
 background-color: #ffffff;
 box-sizing: border-box;
+width: 100vw;
+overflow-x: hidden;
 }
 
 .cabeca{
@@ -129,9 +128,18 @@ mark{
 
 
 .rodape{
-    width: 100%;
     position: absolute;
     top: 4800px;
+    width: 100%;
     background-color: black;
     padding: 50px;
+
+}
+
+p#footer{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 45%;
+    left: 25%;
 }
