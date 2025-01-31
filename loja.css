@@ -38,32 +38,36 @@ header > h1{
 div#produtos{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: unset;
     width: auto;
+    
     justify-content: center;
     align-items: flex-end;
     align-content: space-evenly;
-    height: 100%;
+    height: auto;
 }
 
 .item{
-    border: 3px solid black;
+    border: 3px solid rgb(197, 197, 197);
     width: 400px;
     height: 450px;
     margin: 3px;
+    border-radius: 7px;
 }
 
 .item:hover{
     border: 3px solid black;
     width: 400px;
     border-radius: 7px;
-    box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.212);
+    box-shadow: 3px 5px 5px  rgba(0, 0, 0, 0.212);
     height: 450px;
     margin: 3px;
 }
 
 img{
-    width: 100%;
+    width: auto;
+    display: block;
+    margin: auto;
     height: 200px;
     
 
@@ -100,7 +104,6 @@ a:hover{
     font-weight: 500;
     border-radius: 12px;
     margin: 2px;
-    background-color: black;
     box-shadow: 4px 4px 4px solid black;
 }
 
@@ -111,6 +114,15 @@ a:hover{
 }
 
 .menu{
+    color: black;
+    border: none;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    border-radius: 2px;
+    
+}
+
+.menu:hover{
+    color: black;
     border: none;
     border-bottom: 2px solid black;
     border-radius: 2px;
@@ -118,11 +130,13 @@ a:hover{
 }
 
 
+
+
 footer{
     background-color: black;
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 40px;
 
 }
 
