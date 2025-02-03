@@ -76,9 +76,10 @@ img{
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 50px;
+    text-align: center;
 }
 
-a{
+.item  a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,10 +94,11 @@ a{
     margin: 2px;
 }
 
-a:hover{
+.item > a:hover{
     text-decoration: none;
     border: 1px solid black;
     padding: 6px;
+    background-color: black;
     font-style: none;
     color: rgb(255, 255, 255);
     font-size: medium;
@@ -105,6 +107,22 @@ a:hover{
     border-radius: 12px;
     margin: 2px;
     box-shadow: 4px 4px 4px solid black;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px;
+    font-style: none;
+    color: black;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 12px;
+    margin: 2px;
 }
 
 .opcoes{
@@ -130,6 +148,9 @@ a:hover{
 }
 
 
+.produtos > a:hover{
+    color: black;
+}
 
 
 footer{
